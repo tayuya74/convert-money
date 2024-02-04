@@ -1,0 +1,36 @@
+.currency_box {
+	max-width: 400px;
+}
+
+.currency_row {
+	border: 1px solid rgb(175, 175, 175);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.currency_row:first-child {
+	border-radius: 6px 6px 0 0;
+}
+
+.currency_row:last-child {
+	border-radius: 0 0 6px 6px;
+}
+
+.currency_row:not(:last-child) {
+	margin-bottom: -1px;
+}
+
+.currency_info {
+	margin-right: 15px;
+	padding: 10px 15px;
+	height: 100%;
+	background-color: #e3e3e3;
+	font-size: 22px;
+}
+
+.currency_row span {
+	font-size: 22px;
+	font-weight: 20;
+	margin-right: 10px;
+}
